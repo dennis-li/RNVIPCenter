@@ -7,8 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		A61A76D31F4FC7E5000FD824 /* RNVIPCenter.m in Sources */ = {isa = PBXBuildFile; fileRef = A61A76D21F4FC7E5000FD824 /* RNVIPCenter.m */; };
-		A61A76D41F4FC7E5000FD824 /* RNVIPCenter.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = A61A76D11F4FC7E5000FD824 /* RNVIPCenter.h */; };
+		A61A76E81F4FC997000FD824 /* TSMethod.m in Sources */ = {isa = PBXBuildFile; fileRef = A61A76DB1F4FC997000FD824 /* TSMethod.m */; };
+		A61A76E91F4FC997000FD824 /* GameLiveViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A61A76DD1F4FC997000FD824 /* GameLiveViewController.m */; };
+		A61A76EA1F4FC997000FD824 /* Document.m in Sources */ = {isa = PBXBuildFile; fileRef = A61A76DF1F4FC997000FD824 /* Document.m */; };
+		A61A76EB1F4FC997000FD824 /* Node.m in Sources */ = {isa = PBXBuildFile; fileRef = A61A76E11F4FC997000FD824 /* Node.m */; };
+		A61A76EC1F4FC997000FD824 /* XMLDocument.m in Sources */ = {isa = PBXBuildFile; fileRef = A61A76E31F4FC997000FD824 /* XMLDocument.m */; };
+		A61A76ED1F4FC997000FD824 /* XMLNode.m in Sources */ = {isa = PBXBuildFile; fileRef = A61A76E51F4FC997000FD824 /* XMLNode.m */; };
+		A61A76EE1F4FC997000FD824 /* XMLPropertyNode.m in Sources */ = {isa = PBXBuildFile; fileRef = A61A76E71F4FC997000FD824 /* XMLPropertyNode.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -18,7 +23,6 @@
 			dstPath = "include/$(PRODUCT_NAME)";
 			dstSubfolderSpec = 16;
 			files = (
-				A61A76D41F4FC7E5000FD824 /* RNVIPCenter.h in CopyFiles */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -26,8 +30,20 @@
 
 /* Begin PBXFileReference section */
 		A61A76CE1F4FC7E5000FD824 /* libRNVIPCenter.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libRNVIPCenter.a; sourceTree = BUILT_PRODUCTS_DIR; };
-		A61A76D11F4FC7E5000FD824 /* RNVIPCenter.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RNVIPCenter.h; sourceTree = "<group>"; };
-		A61A76D21F4FC7E5000FD824 /* RNVIPCenter.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RNVIPCenter.m; sourceTree = "<group>"; };
+		A61A76DA1F4FC997000FD824 /* TSMethod.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TSMethod.h; sourceTree = "<group>"; };
+		A61A76DB1F4FC997000FD824 /* TSMethod.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TSMethod.m; sourceTree = "<group>"; };
+		A61A76DC1F4FC997000FD824 /* GameLiveViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GameLiveViewController.h; sourceTree = "<group>"; };
+		A61A76DD1F4FC997000FD824 /* GameLiveViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GameLiveViewController.m; sourceTree = "<group>"; };
+		A61A76DE1F4FC997000FD824 /* Document.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Document.h; sourceTree = "<group>"; };
+		A61A76DF1F4FC997000FD824 /* Document.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Document.m; sourceTree = "<group>"; };
+		A61A76E01F4FC997000FD824 /* Node.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Node.h; sourceTree = "<group>"; };
+		A61A76E11F4FC997000FD824 /* Node.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Node.m; sourceTree = "<group>"; };
+		A61A76E21F4FC997000FD824 /* XMLDocument.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XMLDocument.h; sourceTree = "<group>"; };
+		A61A76E31F4FC997000FD824 /* XMLDocument.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XMLDocument.m; sourceTree = "<group>"; };
+		A61A76E41F4FC997000FD824 /* XMLNode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XMLNode.h; sourceTree = "<group>"; };
+		A61A76E51F4FC997000FD824 /* XMLNode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XMLNode.m; sourceTree = "<group>"; };
+		A61A76E61F4FC997000FD824 /* XMLPropertyNode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XMLPropertyNode.h; sourceTree = "<group>"; };
+		A61A76E71F4FC997000FD824 /* XMLPropertyNode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XMLPropertyNode.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,8 +76,20 @@
 		A61A76D01F4FC7E5000FD824 /* RNVIPCenter */ = {
 			isa = PBXGroup;
 			children = (
-				A61A76D11F4FC7E5000FD824 /* RNVIPCenter.h */,
-				A61A76D21F4FC7E5000FD824 /* RNVIPCenter.m */,
+				A61A76DA1F4FC997000FD824 /* TSMethod.h */,
+				A61A76DB1F4FC997000FD824 /* TSMethod.m */,
+				A61A76DC1F4FC997000FD824 /* GameLiveViewController.h */,
+				A61A76DD1F4FC997000FD824 /* GameLiveViewController.m */,
+				A61A76DE1F4FC997000FD824 /* Document.h */,
+				A61A76DF1F4FC997000FD824 /* Document.m */,
+				A61A76E01F4FC997000FD824 /* Node.h */,
+				A61A76E11F4FC997000FD824 /* Node.m */,
+				A61A76E21F4FC997000FD824 /* XMLDocument.h */,
+				A61A76E31F4FC997000FD824 /* XMLDocument.m */,
+				A61A76E41F4FC997000FD824 /* XMLNode.h */,
+				A61A76E51F4FC997000FD824 /* XMLNode.m */,
+				A61A76E61F4FC997000FD824 /* XMLPropertyNode.h */,
+				A61A76E71F4FC997000FD824 /* XMLPropertyNode.m */,
 			);
 			path = RNVIPCenter;
 			sourceTree = "<group>";
@@ -123,7 +151,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A61A76D31F4FC7E5000FD824 /* RNVIPCenter.m in Sources */,
+				A61A76EA1F4FC997000FD824 /* Document.m in Sources */,
+				A61A76ED1F4FC997000FD824 /* XMLNode.m in Sources */,
+				A61A76E91F4FC997000FD824 /* GameLiveViewController.m in Sources */,
+				A61A76EC1F4FC997000FD824 /* XMLDocument.m in Sources */,
+				A61A76E81F4FC997000FD824 /* TSMethod.m in Sources */,
+				A61A76EB1F4FC997000FD824 /* Node.m in Sources */,
+				A61A76EE1F4FC997000FD824 /* XMLPropertyNode.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -170,6 +204,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = "$(SRCROOT)/../RNApp/**";
 				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -211,6 +246,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = "$(SRCROOT)/../RNApp/**";
 				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
@@ -255,6 +291,7 @@
 				A61A76D91F4FC7E5000FD824 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
