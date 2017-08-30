@@ -21,7 +21,7 @@ s.version      = "0.0.1"
   s.public_header_files = 'Include/*.h'
 #  s.resources = ['React.xcassets']
 
-  s.dependency 'React'
+  s.dependency 'React_debug'
 
  s.framework = 'SystemConfiguration'
  s.preserve_paths = 'Release'
