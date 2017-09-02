@@ -48,7 +48,7 @@
 
 - (void) showDetailPageWithParameter:(DLModuleParameter *) params
 {
-    NSDictionary *localParams = params;
+    NSDictionary *localParams = params.localParams;
     
     if (![localParams isKindOfClass:[NSDictionary class]]) {
         return;
