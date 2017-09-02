@@ -7,13 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		A61A76E81F4FC997000FD824 /* TSMethod.m in Sources */ = {isa = PBXBuildFile; fileRef = A61A76DB1F4FC997000FD824 /* TSMethod.m */; };
-		A61A76E91F4FC997000FD824 /* GameLiveViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A61A76DD1F4FC997000FD824 /* GameLiveViewController.m */; };
-		A61A76EA1F4FC997000FD824 /* Document.m in Sources */ = {isa = PBXBuildFile; fileRef = A61A76DF1F4FC997000FD824 /* Document.m */; };
-		A61A76EB1F4FC997000FD824 /* Node.m in Sources */ = {isa = PBXBuildFile; fileRef = A61A76E11F4FC997000FD824 /* Node.m */; };
-		A61A76EC1F4FC997000FD824 /* XMLDocument.m in Sources */ = {isa = PBXBuildFile; fileRef = A61A76E31F4FC997000FD824 /* XMLDocument.m */; };
-		A61A76ED1F4FC997000FD824 /* XMLNode.m in Sources */ = {isa = PBXBuildFile; fileRef = A61A76E51F4FC997000FD824 /* XMLNode.m */; };
-		A61A76EE1F4FC997000FD824 /* XMLPropertyNode.m in Sources */ = {isa = PBXBuildFile; fileRef = A61A76E71F4FC997000FD824 /* XMLPropertyNode.m */; };
+		A61A76E81F4FC997000FD824 /* VIPCenterCommunication.m in Sources */ = {isa = PBXBuildFile; fileRef = A61A76DB1F4FC997000FD824 /* VIPCenterCommunication.m */; };
+		A61A77751F57A7E3000FD824 /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A61A77741F57A7E3000FD824 /* DetailViewController.m */; };
+		A61A77781F57A88C000FD824 /* VIPCenter.m in Sources */ = {isa = PBXBuildFile; fileRef = A61A77771F57A88C000FD824 /* VIPCenter.m */; };
+		A61A777B1F57A91D000FD824 /* VIPReactNativeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A61A777A1F57A91D000FD824 /* VIPReactNativeViewController.m */; };
+		A61A777E1F57AA37000FD824 /* VIPHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = A61A777D1F57AA37000FD824 /* VIPHelper.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -30,20 +28,16 @@
 
 /* Begin PBXFileReference section */
 		A61A76CE1F4FC7E5000FD824 /* libRNVIPCenter.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libRNVIPCenter.a; sourceTree = BUILT_PRODUCTS_DIR; };
-		A61A76DA1F4FC997000FD824 /* TSMethod.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TSMethod.h; sourceTree = "<group>"; };
-		A61A76DB1F4FC997000FD824 /* TSMethod.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TSMethod.m; sourceTree = "<group>"; };
-		A61A76DC1F4FC997000FD824 /* GameLiveViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GameLiveViewController.h; sourceTree = "<group>"; };
-		A61A76DD1F4FC997000FD824 /* GameLiveViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GameLiveViewController.m; sourceTree = "<group>"; };
-		A61A76DE1F4FC997000FD824 /* Document.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Document.h; sourceTree = "<group>"; };
-		A61A76DF1F4FC997000FD824 /* Document.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Document.m; sourceTree = "<group>"; };
-		A61A76E01F4FC997000FD824 /* Node.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Node.h; sourceTree = "<group>"; };
-		A61A76E11F4FC997000FD824 /* Node.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Node.m; sourceTree = "<group>"; };
-		A61A76E21F4FC997000FD824 /* XMLDocument.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XMLDocument.h; sourceTree = "<group>"; };
-		A61A76E31F4FC997000FD824 /* XMLDocument.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XMLDocument.m; sourceTree = "<group>"; };
-		A61A76E41F4FC997000FD824 /* XMLNode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XMLNode.h; sourceTree = "<group>"; };
-		A61A76E51F4FC997000FD824 /* XMLNode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XMLNode.m; sourceTree = "<group>"; };
-		A61A76E61F4FC997000FD824 /* XMLPropertyNode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XMLPropertyNode.h; sourceTree = "<group>"; };
-		A61A76E71F4FC997000FD824 /* XMLPropertyNode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XMLPropertyNode.m; sourceTree = "<group>"; };
+		A61A76DA1F4FC997000FD824 /* VIPCenterCommunication.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VIPCenterCommunication.h; sourceTree = "<group>"; };
+		A61A76DB1F4FC997000FD824 /* VIPCenterCommunication.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VIPCenterCommunication.m; sourceTree = "<group>"; };
+		A61A77731F57A7E3000FD824 /* DetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DetailViewController.h; sourceTree = "<group>"; };
+		A61A77741F57A7E3000FD824 /* DetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DetailViewController.m; sourceTree = "<group>"; };
+		A61A77761F57A88C000FD824 /* VIPCenter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VIPCenter.h; sourceTree = "<group>"; };
+		A61A77771F57A88C000FD824 /* VIPCenter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VIPCenter.m; sourceTree = "<group>"; };
+		A61A77791F57A91D000FD824 /* VIPReactNativeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VIPReactNativeViewController.h; sourceTree = "<group>"; };
+		A61A777A1F57A91D000FD824 /* VIPReactNativeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VIPReactNativeViewController.m; sourceTree = "<group>"; };
+		A61A777C1F57AA37000FD824 /* VIPHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VIPHelper.h; sourceTree = "<group>"; };
+		A61A777D1F57AA37000FD824 /* VIPHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VIPHelper.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -76,20 +70,16 @@
 		A61A76D01F4FC7E5000FD824 /* RNVIPCenter */ = {
 			isa = PBXGroup;
 			children = (
-				A61A76DA1F4FC997000FD824 /* TSMethod.h */,
-				A61A76DB1F4FC997000FD824 /* TSMethod.m */,
-				A61A76DC1F4FC997000FD824 /* GameLiveViewController.h */,
-				A61A76DD1F4FC997000FD824 /* GameLiveViewController.m */,
-				A61A76DE1F4FC997000FD824 /* Document.h */,
-				A61A76DF1F4FC997000FD824 /* Document.m */,
-				A61A76E01F4FC997000FD824 /* Node.h */,
-				A61A76E11F4FC997000FD824 /* Node.m */,
-				A61A76E21F4FC997000FD824 /* XMLDocument.h */,
-				A61A76E31F4FC997000FD824 /* XMLDocument.m */,
-				A61A76E41F4FC997000FD824 /* XMLNode.h */,
-				A61A76E51F4FC997000FD824 /* XMLNode.m */,
-				A61A76E61F4FC997000FD824 /* XMLPropertyNode.h */,
-				A61A76E71F4FC997000FD824 /* XMLPropertyNode.m */,
+				A61A77761F57A88C000FD824 /* VIPCenter.h */,
+				A61A77771F57A88C000FD824 /* VIPCenter.m */,
+				A61A76DA1F4FC997000FD824 /* VIPCenterCommunication.h */,
+				A61A76DB1F4FC997000FD824 /* VIPCenterCommunication.m */,
+				A61A77731F57A7E3000FD824 /* DetailViewController.h */,
+				A61A77741F57A7E3000FD824 /* DetailViewController.m */,
+				A61A77791F57A91D000FD824 /* VIPReactNativeViewController.h */,
+				A61A777A1F57A91D000FD824 /* VIPReactNativeViewController.m */,
+				A61A777C1F57AA37000FD824 /* VIPHelper.h */,
+				A61A777D1F57AA37000FD824 /* VIPHelper.m */,
 			);
 			path = RNVIPCenter;
 			sourceTree = "<group>";
@@ -151,13 +141,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A61A76EA1F4FC997000FD824 /* Document.m in Sources */,
-				A61A76ED1F4FC997000FD824 /* XMLNode.m in Sources */,
-				A61A76E91F4FC997000FD824 /* GameLiveViewController.m in Sources */,
-				A61A76EC1F4FC997000FD824 /* XMLDocument.m in Sources */,
-				A61A76E81F4FC997000FD824 /* TSMethod.m in Sources */,
-				A61A76EB1F4FC997000FD824 /* Node.m in Sources */,
-				A61A76EE1F4FC997000FD824 /* XMLPropertyNode.m in Sources */,
+				A61A77781F57A88C000FD824 /* VIPCenter.m in Sources */,
+				A61A777B1F57A91D000FD824 /* VIPReactNativeViewController.m in Sources */,
+				A61A76E81F4FC997000FD824 /* VIPCenterCommunication.m in Sources */,
+				A61A77751F57A7E3000FD824 /* DetailViewController.m in Sources */,
+				A61A777E1F57AA37000FD824 /* VIPHelper.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

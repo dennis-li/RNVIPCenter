@@ -7,8 +7,8 @@
 //
 
 #import <Foundation/Foundation.h>
-#import <React/RCTBridgeModule.h>
+#import "RCTBridgeModule.h"
 
-@interface TSMethod : NSObject <RCTBridgeModule>
+@interface VIPCenterCommunication : NSObject <RCTBridgeModule>
 
 @end
