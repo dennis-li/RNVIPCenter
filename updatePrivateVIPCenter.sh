@@ -67,7 +67,7 @@ sed -i ' ' "s/$versionLine/s.version      = \"$newVersion\"/g" ./${podName}.pods
 rm ./${podName}.podspec\ 
 
 #验证podspec
-pod lib lint --allow-warnings --use-libraries  --sources=https://github.com/dennis-li/DennisRepos.git
+pod lib lint --allow-warnings --verbose --use-libraries  --sources=https://github.com/dennis-li/DennisRepos.git
 verifyOperation "${podName} pod lib lint 出错！请检查podspec！！"
 
 #将改动推到远程仓库并创建新的分支

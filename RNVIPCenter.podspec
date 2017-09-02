@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name         = "RNVIPCenter"
-s.version      = "0.0.4"
+s.version      = "0.0.6"
   s.summary      = "RNVIPCenter"
   s.description  = <<-DESC
 	                    React description.
@@ -22,6 +22,7 @@ s.version      = "0.0.4"
 #  s.resources = ['React.xcassets']
 
   s.dependency 'React_debug'
+  s.dependency 'DLModulesCenter'
 
  s.framework = 'SystemConfiguration'
  s.preserve_paths = 'Release'
